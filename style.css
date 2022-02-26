@@ -1,0 +1,66 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.nav {
+    background-color: rgb(59, 58, 58);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+.nav title {
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.nav links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color
+
+}
+
+a.active:hover, a.active:active {
+    color: white;
+
+}
+
+
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+li  {
+    margin: auto 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+.btn {
+    background-color: aqua;
+    color: white;
+    font-weight: 800;
+    border-style: solid black
+    ;
+    box-shadow: 5px 5px black;
+    border: 2px;
+    height: 30px;
+    width: 90px;
+}
